@@ -3,7 +3,7 @@
 
 # Eclipse
 .classpath
-.project
+#.project
 .settings/
 RemoteSystemsTempFiles/
 .recommenders
