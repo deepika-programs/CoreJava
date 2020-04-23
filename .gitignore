@@ -1,0 +1,13 @@
+# ignore all logs
+**.log
+
+# Eclipse
+.classpath
+.project
+.settings/
+RemoteSystemsTempFiles/
+.recommenders
+
+
+/.metadata/
+**.class
