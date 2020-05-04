@@ -1,5 +1,7 @@
 # ignore all logs
 **.log
+**.gitignore
+
 
 # Eclipse
 .classpath
