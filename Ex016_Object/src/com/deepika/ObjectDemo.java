@@ -1,7 +1,7 @@
 package com.deepika;
 
 public class ObjectDemo {
-
+	
 	//Object is a instance of a class
 	//Object used to hold a memory for the corresponding class and to execute its methods
 	

@@ -19,7 +19,7 @@ public class DatabaseSelectDemo {
 			create table testtbl(slno int primary key auto_increment, usrname varchar(25), mobilenum varchar(12));
 		 */
 		
-		//CRUD - create, read, update, delete
+		//CRUD - create, read, update, delete   
 		
 		try {
 			//Load mysql driver into memory
