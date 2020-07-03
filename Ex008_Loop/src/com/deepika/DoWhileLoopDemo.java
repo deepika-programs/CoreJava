@@ -1,6 +1,6 @@
 package com.deepika;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class DoWhileLoopDemo {
 	
@@ -36,7 +36,7 @@ public class DoWhileLoopDemo {
 		} while (i<=5);
 		
 		//infinite loop
-		/* * /
+		/*
 		int in=0;
 		do {
 			Scanner sc = new Scanner(System.in);
@@ -46,8 +46,8 @@ public class DoWhileLoopDemo {
 			}
 			System.out.println(in++);
 		} while (true);
-		/* */
 		
+		*/
 	}
 	
 }

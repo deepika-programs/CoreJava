@@ -3,6 +3,7 @@ package com.deepika;
 import java.sql.SQLException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
@@ -89,7 +90,7 @@ public class Main {
 
 		UserInfoDTO userinf = new UserInfoDTO();
 		RegistrationService reg = new RegistrationServiceImpl();
-
+        Date d=new Date();
 		System.out.println("enter the name:");
 		userinf.setName(sc.next());
 

@@ -11,24 +11,24 @@ public class UserInfoDTO {
 	private String username;
 	private String passwd;
 
-	public UserInfoDTO() {
+	public UserInfoDTO() {        //constructor with no parameters
 		
 	}
 
-	public UserInfoDTO(String name) {
+	public UserInfoDTO(String name) {       //constructor with one parameter
 		this.Name = name;
 	}
 	
 	
-	public UserInfoDTO(String name, Date dob, String phnno, String email, String address, String username, String passwd) {
+	 public UserInfoDTO(String name, Date dob, String phnno, String email, String address, String username, String passwd) {      //constructor with multiple parameters
 		this.Name = name;
 		this.dob = dob;
 		this.Phnno = phnno;
 		this.email = email;
 		this.address = address;
 		this.username = username;
-		this.passwd = passwd;
-	}
+		this.passwd = passwd; 
+	} 
 
 	public String getName() {
 		return Name;

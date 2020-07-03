@@ -26,7 +26,7 @@ public class DecisionMakingDemo {
 		}
 		
 		//if-else-if
-		int iei = 5 * 6;
+		int iei = 2 * 6;
 		if(iei < 10) {
 			System.out.println("The result is less than 10 ");
 		} else if( iei >=10 && iei < 20 ) {
@@ -57,7 +57,6 @@ public class DecisionMakingDemo {
 						System.out.println("Minor aged should have Guardian along with you!");
 					}
 				}
-				
 			}
 		}
 		
@@ -76,7 +75,7 @@ public class DecisionMakingDemo {
 			break;
 		}
 		
-		char gender = 'M';
+		char gender = 'm';
 		switch(gender) {
 			case 'm':
 			case 'M':

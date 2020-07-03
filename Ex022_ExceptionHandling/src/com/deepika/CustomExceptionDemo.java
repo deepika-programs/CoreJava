@@ -21,7 +21,7 @@ public class CustomExceptionDemo {
 		
 		//System.out.println("Next to the catch line");
 		
-		
+	
 		
 		
 	}

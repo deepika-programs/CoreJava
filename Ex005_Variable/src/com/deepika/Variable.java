@@ -37,8 +37,11 @@ public class Variable {
 	static int cen = 100;
 	/*
 		This static variable can be accessed without creating object of this "Variable" class.
+		If we change the value of the static variable in any instance/object it will  be modified across the JVM.
 		i.e: Variable.cen
 	*/
 	
+	// Static variable
+	final static float PI = 3.14f;
 
 }
